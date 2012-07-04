@@ -6,6 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["nathan.sutton@gmail.com"]
   gem.description   = %q{Use ZooKeeper like Redis. A grotesque.}
   gem.summary       = %q{A library that makes is possible to use ZooKeeper like Redis. A grotesque.}
+  gem.homepage      = "https://github.com/corasaurus-hex/grotesque-ruby"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
